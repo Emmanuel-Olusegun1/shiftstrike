@@ -5,7 +5,6 @@ let lastChecked;
 function handleCheck(e) {
     let inBetween = false;
 
-    // Fix: Corrected "shiftkey" to "shiftKey"
     if (e.shiftKey && this.checked) {
         checkboxes.forEach(checkbox => {
             console.log(checkbox);  

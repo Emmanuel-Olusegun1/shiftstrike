@@ -8,7 +8,7 @@
 
 <style>
 
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,7 +20,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Inbox Container */
+
 .inbox {
     width: 90%;
     max-width: 600px;
@@ -30,7 +30,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Individual Items */
+
 .item {
     display: flex;
     align-items: center;
@@ -39,12 +39,12 @@ body {
     transition: background 0.3s;
 }
 
-/* Last item border removal */
+
 .item:last-child {
     border-bottom: none;
 }
 
-/* Checkbox */
+
 .item input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -52,25 +52,25 @@ body {
     cursor: pointer;
 }
 
-/* Text */
+
 .item p {
     margin: 0;
     font-size: 16px;
     transition: color 0.3s, text-decoration 0.3s;
 }
 
-/* Apply strikethrough when checkbox is checked */
+
 .item input[type="checkbox"]:checked + p {
     text-decoration: line-through;
     color: gray;
 }
 
-/* Hover Effect */
+    
 .item:hover {
     background-color: #f9f9f9;
 }
 
-/* Responsive Styles */
+    
 @media (max-width: 480px) {
     .inbox {
         width: 95%;
